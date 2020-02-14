@@ -7,10 +7,14 @@ The sole purpose of this repository is to demonstrate the coding skills and appl
 ## Test the application
 
 You can test the application at:
+
 https://boatie.advena.me/
 
 #### Admin dashboard
+You can also test the administrator dashboard at:
+
 https://boatie.advena.me/dashboard
 
 **Username**: admin@boatie.dk
+
 **Password**: hello123
