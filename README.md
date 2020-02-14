@@ -1,16 +1,16 @@
-# Setup for virgin environment
+# Guide
 
-The project consists of two components which requires four steps to setup.
+This is the official public repository of the boatie.dk website.
+Due to security reasons, the folder backup/ and config/ with the credentials are missing.
+The sole purpose of this repository is to demonstrate the coding skills and application structure.
 
-1. Import all files and folders from the .zip file inside a PHP accessible webpath (e.g. XAMP’s _/htdocs_)
-2. Inside MySQL, create a new database with utf-8 collation. (E.g. boatie_db)
-3. Inside MySQL, create a new user that has unrestricted access to the newly created database only (look at the boatie_admin code snippet from 4.5).
-4. Open the file _/config/db-config.php_ and update all credentials to your environment.
-5. Import the sql_dump.sql that can be found inside the backup folder.
+## Test the application
 
-That’s it. Now you should be able to visit the working project at \*localhost/project_folder/**public\*** .
-To access the dashboard, visit \*localhost/project_folder/**public/dashboard\*** and log in with the admin account:
-Account: max@boatie.dk
-Password: hello123
+You can test the application at:
+https://boatie.advena.me/
 
-For the curious people, the deployed web version doesn’t require the www.example./public path as /public has been specified as the webroot using .htaccess
+#### Admin dashboard
+https://boatie.advena.me/dashboard
+
+**Username**: admin@boatie.dk
+**Password**: hello123
