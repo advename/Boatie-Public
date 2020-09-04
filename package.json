@@ -17,6 +17,6 @@
   "homepage": "https://github.com/advename/boatie#readme",
   "devDependencies": {
     "cssnano": "^4.1.10",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   }
 }
